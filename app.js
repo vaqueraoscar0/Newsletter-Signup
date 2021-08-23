@@ -33,10 +33,10 @@ app.post('/', (req,res) =>{
 
     const jsonData = JSON.stringify(data)
 
-    const url = "https://us5.api.mailchimp.com/3.0/lists/79d60d1419";
+    const url = "https://us5.api.mailchimp.com/3.0/lists/AUDIENCE_ID";
     const options = {
         method: "POST",
-        auth: "vakera:46e0e9ef6ea2fa0989c6de59e6c231f7-us5"
+        auth: "vakera:API_KEY"
     }
 
     const request = https.request(url, options, function (response) {
@@ -63,8 +63,3 @@ app.post('/failure', (req,res) =>{
 app.listen(process.env.PORT || 3000, (req,res) =>{
     console.log('Server is running on port 3000');
 })
-
-/**
- * API_KEY= 46e0e9ef6ea2fa0989c6de59e6c231f7-us5
- * AUDIENCE_ID= 79d60d1419
- */
