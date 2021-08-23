@@ -1,0 +1,32 @@
+body{
+    background: rgba(255, 255, 255, 0.91);
+}
+
+#center {
+    text-align: center;
+    margin: -1%;
+}
+
+p{
+    position: relative;
+    bottom: 10vh;
+}
+
+h1{
+    position: relative;
+    bottom: 10vh;
+}
+
+#lower{
+    padding-top: 10%;
+    background-color: rgb(211, 210, 210);
+}
+
+.okay{
+    opacity: 0.5;
+}
+
+#imgError{
+    padding-top: 2%;
+}
+
