@@ -2,10 +2,15 @@ body{
     background-image: url("https://images.unsplash.com/photo-1512568400610-62da28bc8a13?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvZmZlZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
 }
 
-.container-fluid{
-    position: absolute;
-    padding-top: 20px;
-    padding-right: 17%;
+.center{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
+}
+
+.lower{
+    text-align: left;
 }
 
 .form-container{
@@ -27,5 +32,7 @@ body{
 .img-fluid {
     border: 3px solid black;
 }
+
+
 
 

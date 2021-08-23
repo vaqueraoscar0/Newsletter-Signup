@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Failure</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="/css/style2.css" rel="stylesheet" >
 </head>
 <body>
-
+    <div id="center">
+        <div id="lower">
+            <h1>Ooops!</h1>
+            <p>There was a problem signing you up, Please try again later!</p>
+            <form action="/failure" method="POST">
+                <button class="btn btn-m1 btn-warning btt" type="submit" name="button">Try Again</button>
+            </form><br><br>
+        </div>
+        <img id="imgError" src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZXJyb3J8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60">
+    </div>
 </body>
 </html>
